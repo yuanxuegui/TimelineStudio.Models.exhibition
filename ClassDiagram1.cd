@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TimelineStudio.Models.exhibition.Domain.Area" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAgAAABIAAAAAAAAAQAAAAFAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Area.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TimelineStudio.Models.exhibition.Domain.Command" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABCAAEQAAAAAEAAAAAAAAAAAEAACABAAAAA=</HashCode>
+      <FileName>Domain\Command.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TimelineStudio.Models.exhibition.Domain.CommandContext" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEBBAAAAAAAAAAAAAACAAAAAgA=</HashCode>
+      <FileName>Domain\CommandContext.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TimelineStudio.Models.exhibition.Domain.Device" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASAAAAAAACAAAAAggAAAAAAAAAACAAAQAAAAAAAAA=</HashCode>
+      <FileName>Domain\Device.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TimelineStudio.Models.exhibition.Domain.Exhibition" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwASAAAAABCgAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Domain\Exhibition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TimelineStudio.Models.exhibition.Domain.Operation" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASAAAAAAAAAAAAAIAABCQAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Domain\Operation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TimelineStudio.Models.exhibition.Domain.Parameter" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAgAAIAAAAQAAAAAAAAAAQAgAgAAAIA=</HashCode>
+      <FileName>Domain\Parameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimelineStudio.Models.exhibition.Domain.Property" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEACAAAAAgAAAAAAA=</HashCode>
+      <FileName>Domain\Property.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimelineStudio.Models.exhibition.Domain.Timeline" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAFCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBA=</HashCode>
+      <FileName>Domain\Timeline.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TimelineStudio.Models.exhibition.Domain.TimelineContext" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAEAAAAAE=</HashCode>
+      <FileName>Domain\TimelineContext.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TimelineStudio.Models.exhibition.Domain.TimePoint" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAACAAgAAAAAAAAQAA=</HashCode>
+      <FileName>Domain\TimePoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimelineStudio.Models.exhibition.Engine.DefaultTimeLineEngine" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgEACgQCAAIAAQBEEAAACAEABAAAAAYAACAgAAAgg=</HashCode>
+      <FileName>Engine\DefaultTimeLineEngine.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TimelineStudio.Models.exhibition.Parser.XmlSerializerExhibitionParser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parser\XmlSerializerExhibitionParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TimelineStudio.Models.exhibition.Sender.SenderLocator" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sender\SenderLocator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimelineStudio.Models.exhibition.Sender.UDPSender" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sender\UDPSender.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TimelineStudio.Models.exhibition.Util.Constants" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABggAAAAAAAQJDAAAAAAAAQAAAAAAAABACAAA=</HashCode>
+      <FileName>Util\Constants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimelineStudio.Models.exhibition.Util.XmlSerializerUtil" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\XmlSerializerUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="TimelineStudio.Models.exhibition.Domain.ICommandContext">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\ICommandContext.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TimelineStudio.Models.exhibition.Domain.IExecutable">
+    <Position X="2.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\IExecutable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TimelineStudio.Models.exhibition.Domain.IItemFinder&lt;T, K&gt;">
+    <Position X="5.75" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\IItemFinder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TimelineStudio.Models.exhibition.Domain.IPropertyFinder">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\IPropertyFinder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TimelineStudio.Models.exhibition.Domain.ITimelineContext">
+    <Position X="2.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Domain\ITimelineContext.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TimelineStudio.Models.exhibition.Domain.ITimeTickListener">
+    <Position X="5.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\ITimeTickListener.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TimelineStudio.Models.exhibition.Engine.ITimelineEngine">
+    <Position X="4" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAACAAAAAAAAAAAAAAEAAAAAAAYAACAAAAAAg=</HashCode>
+      <FileName>Engine\ITimelineEngine.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TimelineStudio.Models.exhibition.Parser.IExhibitionParser">
+    <Position X="4" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parser\IExhibitionParser.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TimelineStudio.Models.exhibition.Sender.ISender">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sender\ISender.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="TimelineStudio.Models.exhibition.Domain.DeviceType" Collapsed="true">
+    <Position X="0.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAkAIAAAAAAAABAAAACAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\DeviceType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TimelineStudio.Models.exhibition.Domain.ParameterType" Collapsed="true">
+    <Position X="2.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAABAAAAQAAAAQIAAEAAAAAAAA=</HashCode>
+      <FileName>Domain\ParameterType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

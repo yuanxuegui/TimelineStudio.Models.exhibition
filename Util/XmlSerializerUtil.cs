@@ -6,7 +6,7 @@ using System.Xml.Serialization;
 
 namespace TimelineStudio.Models.exhibition.Util
 {
-    public class XmlSerializerUtil
+    public static class XmlSerializerUtil
     {
 
         public static void SaveXml(object obj, string file)

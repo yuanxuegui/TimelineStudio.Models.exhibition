@@ -5,7 +5,7 @@ using System.Text;
 
 namespace TimelineStudio.Models.exhibition.Util
 {
-    public class Constants
+    public static class Constants
     {
         public const string TIME_UNIT_KEY = "unit";
         public const string TIME_UNIT_MS = "ms";

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace TimelineStudio.Models.exhibition.Domain
 {
-    public interface ITimelineContext
+    public interface ITimelineContext : IPropertyFinder
     {
         Area GetArea();
         Timeline GetTimeline();

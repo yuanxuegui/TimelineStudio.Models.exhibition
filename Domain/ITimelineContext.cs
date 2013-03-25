@@ -7,6 +7,7 @@ namespace TimelineStudio.Models.exhibition.Domain
 {
     public interface ITimelineContext : IPropertyFinder
     {
+        void MergeProperties(Property[] properties);
         Area GetArea();
         Timeline GetTimeline();
     }

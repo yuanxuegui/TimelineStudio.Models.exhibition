@@ -20,6 +20,7 @@ namespace TimelineStudio.Models.exhibition.Util
         public const string SERVER_ID_KEY = "server.id";
         public const string SERVER_IP_KEY = "server.ip";
         public const string SERVER_PORT_KEY = "server.port";
+        public const string CMD_LENGTH = "length";
         public const string CMD_DEVICE_ID = "deviceId";
     }
 }

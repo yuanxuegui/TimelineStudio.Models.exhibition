@@ -17,8 +17,9 @@ namespace TimelineStudio.Models.exhibition.Util
         public const string TCP_PROTOCAL = "tcp";
         public const string UDP_PROTOCAL = "udp";
         public const string HTTP_PROTOCAL = "http";
-        public const string IP_KEY = "server.ip";
-        public const string PORT_KEY = "server.port";
+        public const string SERVER_ID_KEY = "server.id";
+        public const string SERVER_IP_KEY = "server.ip";
+        public const string SERVER_PORT_KEY = "server.port";
         public const string CMD_DEVICE_ID = "deviceId";
     }
 }

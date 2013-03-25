@@ -16,16 +16,6 @@ namespace TimelineStudio.Models.exhibition.Domain
             this.area = area;
         }
 
-        public void MergeProperty(Property[] properties)
-        {
-            if (this.properties == null)
-                this.properties = new List<Property>();
-            foreach(Property prop in properties)
-                this.properties.Add(prop);
-        }
-
-
-
         public Area GetArea()
         {
             return area;
@@ -38,7 +28,10 @@ namespace TimelineStudio.Models.exhibition.Domain
 
         public void MergeProperties(Property[] properties)
         {
-            throw new NotImplementedException();
+            if (this.properties == null)
+                this.properties = new List<Property>();
+            foreach (Property prop in properties)
+                this.properties.Add(prop);
         }
 
         public string GetPropertyValue(string name)

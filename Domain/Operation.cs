@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Xml.Serialization;
@@ -24,10 +25,10 @@ namespace TimelineStudio.Models.exhibition.Domain
             get { return commandField; }
             set { commandField = value; }
         }
-        private Parameter[] parameterItemsField;
+        private ObservableCollection<Parameter> parameterItemsField;
 
         [XmlElement("parameter")]
-        public Parameter[] ParameterItems
+        public ObservableCollection<Parameter> ParameterItems
         {
             get { return parameterItemsField; }
             set { parameterItemsField = value; }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Xml.Serialization;
@@ -16,10 +17,10 @@ namespace TimelineStudio.Models.exhibition.Domain
             get { return tickField; }
             set { tickField = value; }
         }
-        private Command[] commandItemsField;
+        private ObservableCollection<Command> commandItemsField;
 
         [XmlElement("command")]
-        public Command[] CommandItems
+        public ObservableCollection<Command> CommandItems
         {
             get { return commandItemsField; }
             set { commandItemsField = value; }

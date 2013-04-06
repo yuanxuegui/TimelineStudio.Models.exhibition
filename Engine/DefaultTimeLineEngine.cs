@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
@@ -56,8 +57,8 @@ namespace TimelineStudio.Models.exhibition.Engine
             TimePoint timePoint = timeline.GetItemByKey(timeTicked);
             if (timePoint != null)
             {
-                Command[] commands = timePoint.CommandItems;
-                if (commands != null && commands.Length > 0)
+                ObservableCollection<Command> commands = timePoint.CommandItems;
+                if (commands != null && commands.Count > 0)
                 {
                     ICommandContext cmdCtx = new CommandContext(timelineContext);
                     foreach (Command cmd in commands)

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 
@@ -26,7 +27,7 @@ namespace TimelineStudio.Models.exhibition.Domain
             return area.Timeline;
         }
 
-        public void MergeProperties(Property[] properties)
+        public void MergeProperties(ObservableCollection<Property> properties)
         {
             if (this.properties == null)
                 this.properties = new List<Property>();

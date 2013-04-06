@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Xml.Serialization;
@@ -16,18 +17,18 @@ namespace TimelineStudio.Models.exhibition.Domain
             get { return descriptionField; }
             set { descriptionField = value; }
         }
-        private Property[] propertyItemsField;
+        private ObservableCollection<Property> propertyItemsField;
 
         [XmlElement("property")]
-        public Property[] PropertyItems
+        public ObservableCollection<Property> PropertyItems
         {
             get { return propertyItemsField; }
             set { propertyItemsField = value; }
         }
-        private Area[] areaItemsField;
+        private ObservableCollection<Area> areaItemsField;
 
         [XmlElement("area")]
-        public Area[] AreaItems
+        public ObservableCollection<Area> AreaItems
         {
             get { return areaItemsField; }
             set { areaItemsField = value; }

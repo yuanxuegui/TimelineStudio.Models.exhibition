@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Xml.Serialization;
@@ -24,10 +25,10 @@ namespace TimelineStudio.Models.exhibition.Domain
             get { return typeField; }
             set { typeField = value; }
         }
-        private Operation[] operationItemsField;
+        private ObservableCollection<Operation> operationItemsField;
 
         [XmlElement("operation")]
-        public Operation[] OperationItems
+        public ObservableCollection<Operation> OperationItems
         {
             get { return operationItemsField; }
             set { operationItemsField = value; }

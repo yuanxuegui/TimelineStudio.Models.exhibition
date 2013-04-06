@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Xml.Serialization;
@@ -16,10 +17,10 @@ namespace TimelineStudio.Models.exhibition.Domain
             get { return name; }
             set { name = value; }
         }
-        private Device[] deviceItems;
+        private ObservableCollection<Device> deviceItems;
 
         [XmlElement("device")]
-        public Device[] DeviceItems
+        public ObservableCollection<Device> DeviceItems
         {
             get { return deviceItems; }
             set { deviceItems = value; }
